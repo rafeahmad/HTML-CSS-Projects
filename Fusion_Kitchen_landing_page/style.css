@@ -107,6 +107,12 @@ nav #menu-img {
     border-radius: 8px;
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);;
 }
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 10px;
+}
 
 /* ======== Media Query ======== */
 @media (max-width: 1024px) {
