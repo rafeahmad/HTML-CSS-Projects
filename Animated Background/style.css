@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 46%;
+}
+#wrapper a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ff0000;
+    margin: 15px;
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper a span {
+    position: absolute;
+    background-color: #ff0000;
+    transition: 0.8s ease-out;
+    z-index: -1;
+}
+#wrapper a:hover {
+    color: white;
+    transition: 0.8s;
+    font-size: 24px;
+    text-shadow: 4px 4px 5px black;
+}
+
+.to-right {
+    width: 0px;
+    height: 70px;
+    left: 0;
+    top: 0;
+}
+#wrapper a:hover .to-right{
+    width: 220px;
+    transition: 0.8s;
+}
+
+
+.to-left {
+    width: 0px;
+    height: 70px;
+    right: 0;
+    top: 0;
+}
+#wrapper a:hover .to-left{
+    width: 220px;
+    transition: 0.8s;
+}
+
+.to-top {
+    width: 220px;
+    height: 0px;
+    right: 0;
+    bottom: 0;
+}
+#wrapper a:hover .to-top{
+    height: 70px;
+    transition: 0.8s;
+}
+
+.to-bottom {
+    width: 220px;
+    height: 0px;
+    right: 0;
+    top: 0;
+}
+#wrapper a:hover .to-bottom{
+    height: 70px;
+    transition: 0.8s;
+}
+
+
+.diagonal {
+    width: 0px;
+    height: 0px;
+    left: 0;
+    bottom: 0;
+}
+#wrapper a:hover .diagonal{
+    height: 70px;
+    width: 220px;
+    transition: 0.8s;
+}

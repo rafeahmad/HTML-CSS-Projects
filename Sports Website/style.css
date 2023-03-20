@@ -1,0 +1,181 @@
+*
+{
+ margin: 0;
+ padding: 0;
+ font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+    height: 50vh;
+}
+.header {
+    width: 80%;
+    height: 50px;
+    margin: 30px auto;
+}
+#logo {
+    float: left;
+    width: 20%;
+}
+#logo img {
+    width: 100px;
+    margin: 10px auto;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#menu-bar {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+#menu-bar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px 20px;
+    padding-top: 5px;
+}
+#menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.active, #menu-bar ul li a:hover {
+    color: #2c97e4;
+    border-bottom: 3px solid #2c97e4;
+}
+#search-bar {
+    width: 20%;
+    float: right;
+}
+.input-search {
+    margin: 12px auto;
+    display: inline-flex;
+    border-bottom: 2px solid #2c97e4;
+}
+.input-search input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    box-shadow: none;
+}
+.search-icon .fa {
+    color: #2c97e4;
+    font-size: 18px;
+}
+.hero {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+.hero-text {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: -10rem;
+}
+.hero-text h1 {
+    margin: 100px 50px 5px 0;
+    position: relative;
+}
+.hero-text h1::after {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background: #2c97e4;
+    top: 90%;
+    left: 50%;
+    position: absolute;
+}
+.hero-text p {
+    margin-top: 40px;
+    line-height: 20px;
+}
+.play-btn {
+     width: 50px;
+     margin: 0 20px 0 70px;
+     vertical-align: middle;
+}
+.hero-text span {
+    display: table;
+    margin: 60px -70px;
+}
+.hero-banner {
+    width: 49%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    position: relative;
+    top: -100%;
+    left: 4%;
+}
+.hero-banner img {
+    width: 80%;
+    margin: 100px auto;
+    box-shadow: 0 0 20px 0 rgb(93, 91, 91);
+    border-radius: 10px;
+}
+.container small {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 210px;
+}
+.container small b {
+    margin-right: 50px;
+    font-size: 16px;
+}
+.shopping-bag {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: -80px;
+    right: 0;
+    background-image: linear-gradient(#2c97e4, #d6e6fa);
+    border-radius: 0 0 60px 240px;
+}
+.shopping-bag:hover {
+    background-image: linear-gradient(#00FF00, #eff2f6);
+}
+.shopping-bag .fa {
+    position: absolute;
+    right: 65px;
+    bottom: 60px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.social-icons {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 170px;
+    left: -70px;
+    background-image: linear-gradient(#2c97e4, #d6e6fa);
+    border-radius: 0 300px 240px 0;
+}
+.social-icons ul {
+    display: block;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.social-icons ul li {
+    list-style: none;
+    margin-top: 30px;
+}
+.social-icons ul li .fa-brands {
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1;
+}
+.social-icons:hover {
+    background-image: linear-gradient(#00FF00, #eff2f6);
+}
+
+.source {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
