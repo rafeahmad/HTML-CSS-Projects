@@ -1,6 +1,6 @@
 # HTML and CSS Projects 
 
-Hey, I have completed my practice projects using html and css in this repo. I started make website after learn basic html and css and i am very happy to show my work infront of you
+I started make website after learn basic html and css and i am very happy to show my work.
 
 ## Live link and Output
 
