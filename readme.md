@@ -4,11 +4,6 @@ Hey, I have completed my practice projects using html and css in this repo. I st
 
 ## Live link and Output
 
-## [Animated hover effects](https://rafeahmad-html-css-hovering.netlify.app/)
-
-![Animated hover effects](https://user-images.githubusercontent.com/119880897/219548916-c41e84c4-55bf-4861-8df2-e064879a529e.jpg)
-
-
 ## [Fusion kitchen landing page](https://rafeahmad-html-css-fusionkitchen-st.netlify.app/)
 
 ![Fusion Kitchen Website](https://user-images.githubusercontent.com/119880897/216748047-9bbe7354-f883-4942-943d-c782e0b7a809.jpg)
