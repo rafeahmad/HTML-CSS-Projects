@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html {
+    /* Set font size for easy rem calculations
+     * default document font size = 16px, 1rem = 16px, 100% = 16px
+     * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+    */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)),
+     url("/image/background.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+/* ============ Navbar ============= */
+
+.logo{
+    width: 180px;
+    margin-top: 20px;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+    margin-right: 100px;
+    
+}
+nav ul li {
+    list-style-type: none;
+    margin: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(242, 40, 151);
+    font-weight: bold;
+}
+
+nav button{
+    float: right;
+    margin-right: -55%;
+    margin-top: 24px;
+    width: 10%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(216, 37, 135);
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+nav button:hover {
+    background-color: rgb(222, 58, 148);
+    cursor: pointer;
+}
+nav button img {
+    width: 18%;
+    height: 22px;
+    margin-right: 10px;
+}
+
+
+/* ============ Main ============= */
+
+.main-content {
+    position: absolute;
+    top: 35%;
+}
+.main-content h1 {
+    font-size: 75px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+.main-content p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 23px;
+}
+.main-content input {
+    width: 84%;
+    padding: 22px;
+    margin-top: 35px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(227, 224, 224);
+}
+.main-content .btn {
+    width: 15%;
+    padding: 12px;
+    background-color: rgb(216, 37, 135);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    left: -115px;
+}
+.main-content .btn:hover {
+    background-color: rgb(222, 58, 148);
+}
+
+
+
+
+/* ============ Media ============= */
+
+@media (max-width: 28.75em){
+    .logo{
+      width: 120px;
+      margin-left: 12rem;
+    }
+    .main-content{
+      position: absolute;
+      top: 30rem;
+      left: 50px;
+   }
+    .main-content h1{
+       font-size: 7rem;  
+     }
+    .main-content p {
+        margin-left: -26px;
+        font-size: 15px;
+    }
+
+    nav ul {
+     position: relative;
+     left: 11rem;
+     }
+
+     nav ul li a {
+         font-size: 14px;
+     }
+
+     nav button {
+         position: absolute;
+         left: 37%;
+         top: 150px;
+         width: 100px;
+         height: 28px;
+         font-size: 12px;
+     }
+
+      nav button img {
+         height: 18px;
+     }
+
+     .container{
+         min-height: 100vh;
+     }
+
+     .main-content .btn{
+         width: 80px;
+         font-size: 12px;
+         position: relative;
+         left: 185px;
+         top: -50px
+     }
+ }
