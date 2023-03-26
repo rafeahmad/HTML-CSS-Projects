@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    background-color: lemonchiffon;
+    
+}
+h1 {
+    color: rgb(4, 4, 30);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-family: 'Patua One', cursive;
+}
+fieldset {
+    height: 1700px;
+    width: 100%;
+    border-color: black;
+    border-radius: 5px;
+
+}
+.flexbox1, .flexbox2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: lemonchiffon;
+    margin: 60px;
+}
+.flex-item {
+    width: 330px;
+    height: 60%;
+    border-spacing: 10px;
+    box-shadow: 0 2px 5px #000000;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.flex-item:hover {
+    transform: scale(1.1);
+}
+.flex-item img{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 0px 1px 0px 1px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+    
+
+}
+button {
+    width: 35%;
+    height: 50px;
+    margin: 15px 10px;
+    padding: 5px 5px;
+    color: aliceblue;
+    background-color: rgb(50, 47, 3);
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Patua One', cursive;
+    position: relative;
+    left: 30%;
+}
+
+
+button:hover {
+    background-color: rgb(223, 222, 208);
+    color:black;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p {
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.flex-item:hover {
+    box-shadow: 20px 10px 20px 2px;
+}
